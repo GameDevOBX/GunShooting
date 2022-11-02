@@ -17,7 +17,7 @@ namespace ShootingGun
 		
 		void Update()
 		{
-			if (Input.GetButtonDown("firstFire"))
+			if (Input.GetButtonSpace("firstFire"))
 			{
 				Shoot();
 			}
